@@ -1,0 +1,17 @@
+{
+  "name": "skynet-cg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./src/app.ts -p tsify > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "tsify": "^2.0.2",
+    "typescript": "^2.0.6"
+  }
+}
